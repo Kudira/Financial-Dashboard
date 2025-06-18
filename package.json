@@ -24,9 +24,11 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "react-scripts build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+      "vercel-build": "npm run build"
+
   },
   "eslintConfig": {
     "extends": [
