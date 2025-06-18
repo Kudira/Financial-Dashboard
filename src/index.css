@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Chart tooltip style */
+.chartjs-tooltip {
+  @apply bg-white p-2 border border-gray-200 rounded shadow-lg;
+}
